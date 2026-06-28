@@ -1,1 +1,143 @@
 # MVP-Machine-Learning-e-Analytics-PUC-RIO
+---
+
+## 📌 Descrição
+
+Este repositório contém o **MVP de Machine Learning & Analytics**, desenvolvido no contexto da pós-graduação em Ciência de Dados e Analytics da **PUC-Rio**.
+
+Este projeto representa a evolução do **MVP de Análise de Dados e Boas Práticas**, utilizando a base analítica previamente construída para desenvolver modelos de aprendizado de máquina capazes de prever a variação das vendas do varejo brasileiro a partir de variáveis macroeconômicas e socioeconômicas.
+
+O foco desta etapa é aplicar técnicas de **Machine Learning supervisionado** para compreender o impacto de fatores econômicos sobre diferentes segmentos do varejo, avaliando o desempenho dos modelos e a relevância das variáveis explicativas.
+
+Além da modelagem preditiva, o trabalho contempla:
+
+* Seleção e preparação das variáveis para Machine Learning;
+* Construção do pipeline de treinamento e avaliação dos modelos;
+* Comparação de diferentes algoritmos de regressão;
+* Interpretação dos resultados e importância das variáveis;
+* Avaliação da capacidade preditiva dos modelos.
+
+---
+
+## 🎯 Objetivo
+
+O objetivo principal é responder às seguintes questões:
+
+* É possível prever a variação das vendas do varejo brasileiro utilizando variáveis macroeconômicas e socioeconômicas?
+* Quais variáveis exercem maior influência sobre o comportamento das vendas?
+* Setores essenciais e discricionários apresentam sensibilidades distintas às condições econômicas?
+* Qual modelo de Machine Learning apresenta melhor desempenho para esse problema?
+
+---
+
+## 📊 Dados Utilizados
+
+O projeto utiliza a base analítica construída no MVP anterior, composta por dados provenientes de fontes públicas oficiais:
+
+* **IBGE / SIDRA**
+
+  * Pesquisa Mensal do Comércio (PMC)
+  * Índice de Gini
+
+* **Banco Central do Brasil**
+
+  * Taxa Selic
+  * Cotação do Dólar
+
+* **IBGE / PNAD Contínua**
+
+  * Taxa de Desocupação
+
+* **FGV**
+
+  * Índice de Confiança do Consumidor (ICC)
+
+---
+
+## ⚙️ O que foi desenvolvido
+
+* Preparação da base analítica para Machine Learning;
+* Engenharia e seleção de atributos;
+* Separação entre conjuntos de treino e teste;
+* Treinamento de modelos de regressão supervisionada;
+* Comparação do desempenho entre diferentes algoritmos;
+* Avaliação utilizando métricas de regressão;
+* Análise da importância das variáveis (Feature Importance);
+* Interpretação dos resultados e validação das hipóteses propostas.
+
+---
+
+## 🤖 Técnicas de Machine Learning Aplicadas
+
+* Regressão Linear (Baseline)
+* Random Forest Regressor
+* XGBoost Regressor
+* Comparação entre modelos
+* Avaliação por métricas estatísticas
+* Interpretação dos modelos e análise das variáveis mais relevantes
+
+---
+
+## 📊 Avaliação dos Modelos
+
+Os modelos são avaliados por meio de métricas apropriadas para problemas de regressão, como:
+
+* MAE (Mean Absolute Error)
+* RMSE (Root Mean Squared Error)
+* R² (Coeficiente de Determinação)
+
+Também são analisados:
+
+* Capacidade de generalização;
+* Comparação entre modelos;
+* Importância das variáveis explicativas;
+* Interpretação dos resultados obtidos.
+
+---
+
+## ✅ Observações Importantes
+
+* Este projeto utiliza como base a tabela analítica desenvolvida no MVP anterior.
+* Os notebooks possuem comentários detalhados explicando todas as etapas do processo.
+* O foco está na construção de um pipeline reprodutível de Machine Learning.
+* Foram comparados diferentes algoritmos para identificar o modelo mais adequado ao problema.
+* A interpretação dos resultados busca não apenas maximizar a acurácia, mas também compreender os fatores econômicos que influenciam o comportamento das vendas.
+
+---
+
+## 📈 Principais Resultados Esperados
+
+* Identificação das variáveis com maior poder explicativo sobre as vendas;
+* Comparação do desempenho entre diferentes algoritmos de regressão;
+* Avaliação das diferenças entre setores essenciais e discricionários;
+* Análise da influência de fatores macroeconômicos sobre o consumo;
+* Validação das hipóteses propostas para o estudo.
+
+---
+
+## 🚀 Próximos Passos
+
+* Explorar modelos específicos para séries temporais;
+* Avaliar técnicas avançadas de engenharia de atributos;
+* Incorporar novas variáveis econômicas e comportamentais;
+* Expandir o estudo para outros segmentos do varejo brasileiro;
+* Investigar modelos de Deep Learning para previsão de séries temporais.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* XGBoost
+* LightGBM (quando aplicável)
+* APIs públicas (IBGE, Banco Central e FGV)
+
+---
+
+## 👨‍💻 Autor
+
+**Leandro Maldonado Vieira dos Santos**
