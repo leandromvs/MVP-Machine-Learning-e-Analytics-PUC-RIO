@@ -9,19 +9,19 @@ Este projeto é uma evolução do [MVP de Análise de Dados e Boas Práticas](ht
 
 ## 🎯 Objetivo
 
-* É possível prever a variação das vendas dos setor de varejo farmacêutico (farmácias) utilizando variáveis macroeconômicas e socioeconômicas?
+1) É possível prever a variação das vendas do setor de varejo farmacêutico (farmácias) utilizando variáveis macroeconômicas e socioeconômicas?
 
-* É possível prever a variação das vendas dos setor de Eletrodomesticos utilizando variáveis macroeconômicas e socioeconômicas?
+2) É possível prever a variação das vendas do setor de Eletrodomesticos utilizando variáveis macroeconômicas e socioeconômicas?
 
-* O Índice de Confiança do Consumidor (ICC) contribui para melhorar o desempenho preditivo dos modelos em relação ao uso exclusivo de indicadores macroeconômicos do estudo da sprint anterior?
+3) O Índice de Confiança do Consumidor (ICC) contribui para melhorar o desempenho preditivo dos modelos em relação ao uso exclusivo de indicadores macroeconômicos do estudo da sprint anterior?
 
-* Os fatores que mais influenciam as vendas diferem entre os setores analisados, refletindo características distintas de consumo?
+4) Os fatores que mais influenciam as vendas diferem entre os setores analisados, refletindo características distintas de consumo?
 
-* O setor farmacêutico, por possuir características essenciais, apresenta menor sensibilidade a variações econômicas quando comparado ao setor discricionário?
+5) O setor farmacêutico, por possuir características essenciais, apresenta menor sensibilidade a variações econômicas quando comparado ao setor discricionário?
 
-*  Regiões com diferentes níveis de desigualdade de renda (Índice de Gini) respondem de forma distinta às variações dos indicadores macroeconômicos?
+6) Regiões com diferentes níveis de desigualdade de renda (Índice de Gini) respondem de forma distinta às variações dos indicadores macroeconômicos?
 
-*  O ICC apresenta maior relevância para a previsão das vendas do setor discricionário (Eletrodomésticos) do que para o setor farmacêutico, devido à maior influência da confiança e da intenção de compra sobre bens não essenciais?
+7) O ICC apresenta maior relevância para a previsão das vendas do setor discricionário (Eletrodomésticos) do que para o setor farmacêutico, devido à maior influência da confiança e da intenção de compra sobre bens não essenciais?
 
 ---
 
@@ -51,7 +51,7 @@ O projeto utiliza a base analítica construída no MVP anterior, composta por da
 
 ## ⚙️ O que foi desenvolvido
 
-* EDA
+* Novo EDA com o foco do projeto novo
 * Separação entre conjuntos de treino e teste;
 * Treinamento de modelos de regressão supervisionada;
 * Comparação do desempenho entre diferentes algoritmos;
@@ -93,8 +93,7 @@ Também são analisados:
 
 * Este projeto utiliza como base a tabela analítica desenvolvida no MVP anterior.
 * Os notebooks possuem comentários detalhados explicando todas as etapas do processo.
-* O foco está na construção de um pipeline reprodutível de Machine Learning.
-* Foram comparados diferentes algoritmos para identificar o modelo mais adequado ao problema.
+* * Foram comparados diferentes algoritmos para identificar o modelo mais adequado ao problema.
 * A interpretação dos resultados busca não apenas maximizar a acurácia, mas também compreender os fatores econômicos que influenciam o comportamento das vendas.
 
 ---
@@ -111,11 +110,10 @@ Também são analisados:
 
 ## 🚀 Próximos Passos
 
-* Explorar modelos específicos para séries temporais;
 * Avaliar técnicas avançadas de engenharia de atributos;
 * Incorporar novas variáveis econômicas e comportamentais;
 * Expandir o estudo para outros segmentos do varejo brasileiro;
-* Investigar modelos de Deep Learning para previsão de séries temporais.
+* Testar modelos de Deep Learning para previsão de séries temporais.
 
 ---
 
@@ -128,7 +126,6 @@ Também são analisados:
 * Scikit-learn
 * XGBoost
 * LightGBM (quando aplicável)
-* APIs públicas (IBGE, Banco Central e FGV)
 
 ---
 
