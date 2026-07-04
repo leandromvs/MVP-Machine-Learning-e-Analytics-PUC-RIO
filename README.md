@@ -9,8 +9,6 @@ Este projeto é uma evolução do [MVP de Análise de Dados e Boas Práticas](ht
 
 ## 🎯 Objetivo
 
-O objetivo principal é responder às seguintes questões:
-
 * É possível prever a variação das vendas dos setor de varejo farmacêutico (farmácias) utilizando variáveis macroeconômicas e socioeconômicas?
 
 * É possível prever a variação das vendas dos setor de Eletrodomesticos utilizando variáveis macroeconômicas e socioeconômicas?
