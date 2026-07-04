@@ -3,19 +3,7 @@
 
 ## 📌 Descrição
 
-Este repositório contém o **MVP de Machine Learning & Analytics**, desenvolvido no contexto da pós-graduação em Ciência de Dados e Analytics da **PUC-Rio**.
-
-Este projeto representa a evolução do **MVP de Análise de Dados e Boas Práticas**, utilizando a base analítica previamente construída para desenvolver modelos de aprendizado de máquina capazes de prever a variação das vendas do varejo brasileiro a partir de variáveis macroeconômicas e socioeconômicas.
-
-O foco desta etapa é aplicar técnicas de **Machine Learning supervisionado** para compreender o impacto de fatores econômicos sobre diferentes segmentos do varejo, avaliando o desempenho dos modelos e a relevância das variáveis explicativas.
-
-Além da modelagem preditiva, o trabalho contempla:
-
-* Seleção e preparação das variáveis para Machine Learning;
-* Construção do pipeline de treinamento e avaliação dos modelos;
-* Comparação de diferentes algoritmos de regressão;
-* Interpretação dos resultados e importância das variáveis;
-* Avaliação da capacidade preditiva dos modelos.
+Este projeto é uma evolução do [MVP de Análise de Dados e Boas Práticas](https://github.com/leandromvs/MVP-Analise-de-dados-e-boas-praticas-PUC-RIO/blob/main/MVP_Analise_de_dados_e_boas_praticas_PUC_RIO_FINAL.ipynb), no qual foram realizadas as etapas de pré-processamento, análise exploratória dos dados (EDA) e a construção de um modelo para previsão das vendas do varejo brasileiro utilizando variáveis macroeconômicas. Nesta etapa, o estudo amplia essa abordagem ao incluir o Índice de Confiança do Consumidor (ICC) e concentrar a análise em dois segmentos com perfis distintos: Artigos farmacêuticos, médicos, ortopédicos, de perfumaria e cosméticos, de caráter predominantemente essencial, e Móveis e Eletrodomésticos, representando o consumo discricionário. Além de prever as vendas desses setores, o projeto busca analisar como fatores como taxa de juros, inflação, desemprego e confiança do consumidor influenciam categorias de consumo com diferentes níveis de essencialidade.
 
 ---
 
@@ -23,10 +11,19 @@ Além da modelagem preditiva, o trabalho contempla:
 
 O objetivo principal é responder às seguintes questões:
 
-* É possível prever a variação das vendas do varejo brasileiro utilizando variáveis macroeconômicas e socioeconômicas?
-* Quais variáveis exercem maior influência sobre o comportamento das vendas?
-* Setores essenciais e discricionários apresentam sensibilidades distintas às condições econômicas?
-* Qual modelo de Machine Learning apresenta melhor desempenho para esse problema?
+* É possível prever a variação das vendas dos setor de varejo farmacêutico (farmácias) utilizando variáveis macroeconômicas e socioeconômicas?
+
+* É possível prever a variação das vendas dos setor de Eletrodomesticos utilizando variáveis macroeconômicas e socioeconômicas?
+
+* O Índice de Confiança do Consumidor (ICC) contribui para melhorar o desempenho preditivo dos modelos em relação ao uso exclusivo de indicadores macroeconômicos do estudo da sprint anterior?
+
+* Os fatores que mais influenciam as vendas diferem entre os setores analisados, refletindo características distintas de consumo?
+
+* O setor farmacêutico, por possuir características essenciais, apresenta menor sensibilidade a variações econômicas quando comparado ao setor discricionário?
+
+*  Regiões com diferentes níveis de desigualdade de renda (Índice de Gini) respondem de forma distinta às variações dos indicadores macroeconômicos?
+
+*  O ICC apresenta maior relevância para a previsão das vendas do setor discricionário (Eletrodomésticos) do que para o setor farmacêutico, devido à maior influência da confiança e da intenção de compra sobre bens não essenciais?
 
 ---
 
@@ -56,8 +53,7 @@ O projeto utiliza a base analítica construída no MVP anterior, composta por da
 
 ## ⚙️ O que foi desenvolvido
 
-* Preparação da base analítica para Machine Learning;
-* Engenharia e seleção de atributos;
+* EDA
 * Separação entre conjuntos de treino e teste;
 * Treinamento de modelos de regressão supervisionada;
 * Comparação do desempenho entre diferentes algoritmos;
